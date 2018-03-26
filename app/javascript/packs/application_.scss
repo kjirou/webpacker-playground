@@ -1,0 +1,8 @@
+.my-color {
+  .red {
+    color: red;
+  }
+  &.blue {
+    color: blue;
+  }
+}
