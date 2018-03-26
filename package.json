@@ -2,7 +2,8 @@
   "name": "webpacker-playground",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.4.1"
+    "@rails/webpacker": "^3.4.1",
+    "sort-array-for-drag-and-drop": "^1.1.1"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"

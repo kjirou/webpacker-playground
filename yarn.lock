@@ -5213,6 +5213,10 @@ sockjs@0.3.19:
     faye-websocket "^0.10.0"
     uuid "^3.0.1"
 
+sort-array-for-drag-and-drop@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/sort-array-for-drag-and-drop/-/sort-array-for-drag-and-drop-1.1.1.tgz#5ba5db7532e17181a48e0ef3b4933de37f55671f"
+
 sort-keys@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sort-keys/-/sort-keys-1.1.2.tgz#441b6d4d346798f1b4e49e8920adfba0e543f9ad"
