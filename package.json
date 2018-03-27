@@ -7,6 +7,10 @@
     "sort-array-for-drag-and-drop": "^1.1.1"
   },
   "devDependencies": {
+    "mocha": "^5.0.5",
     "webpack-dev-server": "2.11.2"
+  },
+  "scripts": {
+    "test": "$(npm bin)/mocha 'js_test/*.js'"
   }
 }
