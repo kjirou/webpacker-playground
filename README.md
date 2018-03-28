@@ -5,8 +5,8 @@
 ```bash
 mkdir ./好きな名前
 cd ./好きな名前
-touch Gemfile
-echo "gem 'rails', '5.1.5'" > Gemfile
+bundle init
+vi Gemfile  # gem "rails", "5.1.5" を追記する
 bundle install
 bundle exec rails -v  # バージョンを確認する
 Rails 5.1.5
