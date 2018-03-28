@@ -1,24 +1,12 @@
-# README
+# webpacker-playground
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 準備
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+mkdir ./好きな名前
+cd ./好きな名前
+touch Gemfile
+echo "gem 'rails'" > Gemfile
+bundle install
+bundle exec rails new . --webpack  # Overwrite Gemfile? は Yes で
+```
